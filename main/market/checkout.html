@@ -5,7 +5,6 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <!-- mobile metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
       <title>Food Shelf | Checkout</title>
       <meta name="keywords" content="">
@@ -58,7 +57,7 @@
                      <div class="user_profle_side">
                         <div class="user_img"><img class="img-responsive" src="../images/layout_img/ai.jpeg" alt="#" /></div>
                         <div class="user_info">
-                           <h6>Gemini</h6>
+                           <h6>Ask Gemini</h6>
                            <p><span class="online_animation"></span> Online</p>
                         </div>
                      </div>
@@ -91,7 +90,7 @@
                <div class="topbar">
                   <nav class="navbar navbar-expand-lg navbar-light">
                      <div class="full">
-                        <button type="button" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
+                        <button type="button" title="toggleButton" id="sidebarCollapse" class="sidebar_toggle"><i class="fa fa-bars"></i></button>
                         <div class="logo_section">
                            <img class="img-responsive" src="../images/logo/logo.png" alt="#" />
                         </div>
@@ -126,23 +125,23 @@
                                 <div class="row">
                                     <div class="col-md-6 form-group">
                                         <label>First Name</label>
-                                        <input class="form-control" type="text" placeholder=" ">
+                                        <input class="form-control" title="firstName" type="text">
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <label>Last Name</label>
-                                        <input class="form-control" type="text" placeholder=" ">
+                                        <input class="form-control" title="lastName" type="text">
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <label>Address</label>
-                                        <input class="form-control" type="text" placeholder=" ">
+                                        <input class="form-control" title="address" type="text">
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <label>Mobile No</label>
-                                        <input class="form-control" type="text" placeholder=" ">
+                                        <input class="form-control" title="telephoneNumber" type="text">
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <label>Region</label>
-                                        <input class="form-control" type="text" placeholder=" ">
+                                        <input class="form-control" title="Region" type="text">
                                     </div>
                                 </div>
                             </div>
@@ -199,7 +198,7 @@
                                                 <input type="text" size="30" name="payment" placeholder="Type your payment mode here">
                                             </div>
                                         </div>
-                                        <button class="btn btn-block btn-primary font-weight-bold py-3" value="submit">Place Order</button></a>
+                                        <button class="btn btn-block btn-primary font-weight-bold py-3" type="submit" value="submit">Place Order</button></a>
                                     </div>
                                 </div>
                             </form>
