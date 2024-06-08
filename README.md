@@ -1,2 +1,4 @@
 # foodshelf-v1
---Front End demo
+- Take photos to upload automatically to Market
+- Track finances
+- Generate sales statistics
